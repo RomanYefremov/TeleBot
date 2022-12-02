@@ -3,8 +3,8 @@ import pandas as pd
 
 
 def main():
-    client = Client('zMXWG9fRsJOsHNPUHuvgC1Tvwr9Gvfu76fIt4Mfu47icnmEIBVanMsyCJwIVLnCT',
-                    'UKXPwlwaCVQbjoh86cG8AmRF2kq0pA0MJVq9ia5BR3YQ5HVKXcnCkzVDZQx5I8zE')
+    client = Client('SECRET KEY',
+                    'TOKEN')
 
     posframe = pd.read_csv('positionchack')
 
