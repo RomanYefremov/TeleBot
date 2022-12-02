@@ -1,11 +1,11 @@
 import telebot
 from binance.client import Client
 
-bot = telebot.TeleBot('5377082734:AAGpEyKArISwYHHZvQZP3WMmmZNOVMNBfR8', parse_mode='HTML')
+bot = telebot.TeleBot('BOTID', parse_mode='HTML')
 client = Client(
-    'zMXWG9fRsJOsHNPUHuvgC1Tvwr9Gvfu76fIt4Mfu47icnmEIBVanMsyCJwIVLnCT',
-    'UKXPwlwaCVQbjoh86cG8AmRF2kq0pA0MJVq9ia5BR3YQ5HVKXcnCkzVDZQx5I8zE')
-users = [415341640]
+    'SECRET KEY',
+    'TOKEN')
+users = [ID USER]
 token_weather = 'd309e1237aaeb338ad8555f203411d8e'
 
 dict_city = []
