@@ -6,7 +6,7 @@ client = Client(
     'SECRET KEY',
     'TOKEN')
 users = [ID USER]
-token_weather = 'd309e1237aaeb338ad8555f203411d8e'
+token_weather = 'token'
 
 dict_city = []
 with open('ua.csv', 'r') as file:
